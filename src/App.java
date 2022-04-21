@@ -44,7 +44,7 @@ public class App {
         {
             return num2;
         }
-        return greaterValue(34, 100);
+        return greaterValue(45, 100);
     }
 
 
@@ -81,7 +81,7 @@ public class App {
         /**
          * Call the greaterValue method with integer parameters
          */
-        System.out.println("The greater value between 45 and 100 is " + greaterValue(34,100));
+        System.out.println("The greater value between 45 and 100 is " + greaterValue(45,100));
 
         /**
          * Call the greaterValue method with double parameters
