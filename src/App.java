@@ -44,7 +44,7 @@ public class App {
         {
             return num2;
         }
-        return greaterValue(45, 100);
+        return greaterValue(34, 100);
     }
 
 
@@ -71,6 +71,9 @@ public class App {
          * Create Method calls that takes in 2 parameters, and 3 parameters
          * respectively and computes their sum.
          */
+        System.out.println("The sum of 13 and 16 is " + App.sum2(13,16));
+        System.out.println("The sum of 13 and 16 is " + App.sum3(10,13,16));
+        System.out.println("____________________________________________");
         System.out.println("The sum of 13 and 16 is " + App.computeSum(13,16));
         System.out.println("The sum of of 10 and 13 and 16 is " + App.computeSum( 10, 13,16));
         System.out.println("____________________________________________");
@@ -78,7 +81,7 @@ public class App {
         /**
          * Call the greaterValue method with integer parameters
          */
-        System.out.println("The greater value between 45 and 100 is " + greaterValue(45,100));
+        System.out.println("The greater value between 45 and 100 is " + greaterValue(34,100));
 
         /**
          * Call the greaterValue method with double parameters
