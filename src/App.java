@@ -72,7 +72,7 @@ public class App {
          * respectively and computes their sum.
          */
         System.out.println("The sum of 13 and 16 is " + App.sum2(13,16));
-        System.out.println("The sum of 13 and 16 is " + App.sum3(10,13,16));
+        System.out.println("The sum of 10 and 13 and 16 is " + App.sum3(10,13,16));
         System.out.println("____________________________________________");
         System.out.println("The sum of 13 and 16 is " + App.computeSum(13,16));
         System.out.println("The sum of of 10 and 13 and 16 is " + App.computeSum( 10, 13,16));
